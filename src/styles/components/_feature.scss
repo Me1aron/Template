@@ -1,0 +1,56 @@
+.feature {
+    position: relative;
+    &__block {
+        margin:127px 0px;
+        h3 {
+            margin-top:45px;
+            font-size: 26px;
+        }
+        p {
+            margin-top:44px;
+            font-size: 18px;
+            color: #8c8f94;
+        }
+    }
+    
+    &__iphone {
+        margin-top:223px;
+        h2 {
+            font-size: 42px;
+        }
+        p {
+            margin-top:73px;
+            color: #8c8f94;
+            font-size:20px;
+        }
+    }
+    &__btn {
+        margin-top:75px;
+        border-radius: 21px;
+        &-hack{
+            &:hover{
+                color:#fff;
+            }
+            color:#FFF;
+            width: 202px;
+            height: 42px;
+            background-color: #267df4;
+            img {
+                margin-left:43px;
+            }
+        }
+        &-learn {
+            margin-left:20px;
+            width: 142px;
+            height: 42px;
+            border: 1px solid #26272d;
+        }
+        margin-bottom:233px;
+    }
+    .iphone__img {
+        position: absolute;
+        top:686px;
+        margin-left:-596px;
+    }
+    
+}

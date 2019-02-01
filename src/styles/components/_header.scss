@@ -1,0 +1,68 @@
+.header{
+    &__logo {
+        margin-top:61px;
+    }
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        margin-top:58px;
+        &-burger {
+            margin-right: 30px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: row;
+            &__link {
+                &-left {
+                    margin-right: 42px;
+                }
+                &-right {
+                    margin-right: 30px;
+                }
+                .app {
+                    margin-top:-14px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 132px;
+                    height: 42px;
+                    border-radius: 21px;
+                    background-color: #267df4;
+                    color:#FFF;
+                    img {
+                        margin-right: 14px;
+                        margin-top:-5px;
+                    }
+                }
+            }
+        }
+    }
+    &__headline {
+        &-first {
+            margin-top:128px;
+            font-size: 62px;
+        }
+        &-last {
+            width: 780px;
+            margin:40px auto 0 auto;
+            font-size:20px;
+            color: #8c8f94;
+        }
+    }
+    &__btn-watch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:62px auto 0 auto;
+        width: 205px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #8c8f94;
+        img {
+            margin-right: 15px;
+        }
+    }
+    &__bg-phone {
+        margin-top:55px;
+    }
+}

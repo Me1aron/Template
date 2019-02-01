@@ -1,0 +1,45 @@
+.screen {
+    background-color: #f5f5f8;
+    padding-top:143px;
+    padding-bottom:532px;
+    .title {
+        &__first {
+            font-size: 42px;
+        }
+        &__two{
+            color: #8c8f94;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+        }
+    }
+    hr {
+        margin:47px auto 43px auto;
+        width: 50px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #267df4;
+    }
+    #slides {
+        position: relative;
+        height: 300px;
+        padding: 0px;
+        margin-top:46px;
+        list-style-type: none;
+    }
+     
+    .slide {
+        position: absolute;
+        opacity: 0;
+        z-index: 1;
+        -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
+        -o-transition: opacity 1s;
+        transition: opacity 1s;
+    }
+     
+    .showing {
+        opacity: 1;
+        z-index: 2;
+    }
+}

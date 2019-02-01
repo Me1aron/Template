@@ -1,0 +1,72 @@
+.download {
+    background-color: #f5f5f8;
+    &__logo {
+        font-size: 12px;
+        opacity: 0.5;
+        color: #3a3d4b;
+    }
+    &__title {
+        margin:37px 0px 47px 0px;
+        font-size: 42px;
+        color: #3a3d4b;
+    }
+    &__form {
+        position: relative;
+    }
+    input[type="email"] {
+        width: 502px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #222328;
+    }
+    &__send {
+        position: absolute;
+        top:4px;
+        margin-left:333px;
+        width: 164px;
+        height: 42px;
+        border-radius: 21px;
+        background-color: #6fc754;
+        color:#fff;
+        img {
+            margin-left:18px;
+        }
+    }
+    &__app {
+        margin-top:66px;
+        .app {
+            &__title {
+                opacity: 0.7;
+                color: #3a3d4b;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1.2px;
+                margin-bottom:22px;
+            }
+            &__btn {
+                width: 210px;
+                height: 60px;
+                border-radius: 30px;
+                color:#fff;
+                background-color: #131315;
+                margin-bottom:131px;
+                img {
+                    width: 24px;
+                    height: 28px;  
+                }
+                &-text {
+                    margin-left:18px;
+                    font-size: 23px;
+                    line-height: 22px;
+                    p:first-child{
+                    font-size: 12px;
+                    line-height: 24.84px;
+                    }
+                    p{
+                    color:#fff;
+                    }
+                }
+            }
+        }
+    }
+}
